@@ -1,0 +1,21 @@
+
+.box{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+}
+.box td {
+    position: relative;
+  }
+  
+  .box td button {
+    position: absolute;
+  }
+  
+  .box td button.dot {
+    top: 0;
+    right: 0;
+  }
